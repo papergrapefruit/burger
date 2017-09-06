@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'Oregano',
+  cursive;
+  text-align: center
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+h2 {
+  font-family: 'Tenali Ramakrishna',
+  sans-serif
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: rgb(246, 166, 217);
+  font-family: 'Baloo Bhaijaan',
+  cursive;
+  font-size: 15px
+
+}
+
+.label {
+  font-weight: bolder
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: #B5A4E7;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
