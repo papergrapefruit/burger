@@ -39,7 +39,13 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
-#font-pretty {
+#font-oregano {
   font-family: 'Oregano';
   font-size: 24px;
+}
+
+#font-tenali {
+
+font-family: 'Tenali Ramakrishna',
+sans-serif
 }
