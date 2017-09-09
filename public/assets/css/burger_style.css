@@ -33,9 +33,12 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: #B5A4E7;
+  background: #C8F961;
 }
 
 .form-group {
   margin-bottom: 5px;
+}
+#font-pretty {
+  font-family: 'Oregano';
 }
