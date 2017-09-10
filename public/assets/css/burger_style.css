@@ -23,6 +23,9 @@ img {
 background-color: rgb(243, 137, 75);
 margin-top: 10px;
 }
+#body-row {
+  background-color: rgb(240, 234, 202);
+}
 
 h2 {
   font-family: 'Tenali Ramakrishna',
@@ -32,7 +35,7 @@ h2 {
 li {
   padding: 5px;
   margin: 5px;
-  background: rgb(246, 166, 217);
+  background: rgb(248, 183, 114);
   font-family: 'Baloo Bhaijaan',
   cursive;
   font-size: 15px
@@ -46,7 +49,7 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: #C8F961;
+  background: #cee35a;
 }
 
 .form-group {
@@ -58,7 +61,11 @@ li {
 }
 
 #font-tenali {
-
-font-family: 'Tenali Ramakrishna',
-sans-serif
+    font-family: 'Tenali Ramakrishna',
+    sans-serif;
+    font-size: 24px;
+}
+#font-addburger {
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 15px;
 }
