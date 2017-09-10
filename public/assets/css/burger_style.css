@@ -1,3 +1,9 @@
+body {
+  background-image: url(assets/img/plaid.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 h1 {
   font-family: 'Oregano',
   cursive;
