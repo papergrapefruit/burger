@@ -74,12 +74,16 @@ router.get('/logout', (req, res) => {
 // Perform the final stage of authentication and redirect to '/user'
 router.get(
   '/callback',
-  passport.authenticate('auth0', {
+  /*passport.authenticate('auth0', {
     failureRedirect: '/'
   }),
   function (req, res) {
     res.redirect(req.session.returnTo || '/user');
   }
+  */(req, res) => {
+    res.redirect('/');
+  }
+
 );
 
 // Export routes for server.js to use.
